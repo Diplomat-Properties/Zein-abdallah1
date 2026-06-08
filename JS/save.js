@@ -3,15 +3,14 @@
 //   const vCardData = `
 // BEGIN:VCARD
 // VERSION:3.0
-// FN:Afaf Mohammad Marouf
+// FN:Zein abdallah
 // TITLE:Sales Manager
-// ORG:RISE Properties
-// TEL;TYPE=WORK,VOICE:+971521977368
-// TEL;TYPE=WORK,VOICE:+971568809032
+// ORG:Diplomat Properties
+// TEL;TYPE=WORK,VOICE:+971503250084
 // TEL;TYPE=WORK,VOICE:+97145665109
-// EMAIL:Afaf@riseproperties.ae
+// EMAIL:Zeinabdallah08@gmail.com
 // URL:http://www.riseproperties.ae
-// ADR;TYPE=WORK:;;PO Box No 455979, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
+// ADR;TYPE=WORK:;;PO Box No 455979, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 // END:VCARD
 //   `.trim();
 
@@ -20,7 +19,7 @@
 
 //   const a = document.createElement('a');
 //   a.href = url;
-//   a.download = 'Afaf-Mohammad-Marouf.vcf';
+//   a.download = 'Zein abdallah.vcf';
 //   document.body.appendChild(a);
 //   a.click();
 //   document.body.removeChild(a);
@@ -38,11 +37,11 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:AMMAR NOURALLAH
+FN:Zein Abdallah
 TITLE:Sales Manager
 ORG:Diplomat Properties
-TEL;TYPE=WORK,VOICE:+971586883324
-EMAIL:Ammar@dpdxb.com
+TEL;TYPE=WORK,VOICE:+971503250084
+EMAIL:Zeinabdallah08@gmail.com
 URL:http://www.dpdxb.com
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -53,7 +52,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'AMMAR NOURALLAH.vcf';
+  a.download = 'Zein Abdallah.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
